@@ -1854,6 +1854,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script9.lua';
@@ -1861,7 +1865,11 @@ class PlayState extends MusicBeatState
 			if(OpenFlAssets.exists(luaFile)) {
 				doPush = true;
 			}
-			
+		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script10.lua';
@@ -1869,6 +1877,10 @@ class PlayState extends MusicBeatState
 			if(OpenFlAssets.exists(luaFile)) {
 				doPush = true;
 			}
+		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
 		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
@@ -1878,6 +1890,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script12.lua';
@@ -1885,6 +1901,10 @@ class PlayState extends MusicBeatState
 			if(OpenFlAssets.exists(luaFile)) {
 				doPush = true;
 			}
+		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
 		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
@@ -1894,6 +1914,11 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+		
+		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script14.lua';
@@ -1901,6 +1926,10 @@ class PlayState extends MusicBeatState
 			if(OpenFlAssets.exists(luaFile)) {
 				doPush = true;
 			}
+		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
 		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
@@ -1910,6 +1939,11 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
+		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script16.lua';
@@ -1917,6 +1951,11 @@ class PlayState extends MusicBeatState
 			if(OpenFlAssets.exists(luaFile)) {
 				doPush = true;
 			}
+		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
 		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
@@ -1926,6 +1965,11 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
+		
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script18.lua';
@@ -1934,6 +1978,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script19.lua';
@@ -1942,6 +1990,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script20.lua';
@@ -1949,6 +2001,10 @@ class PlayState extends MusicBeatState
 			if(OpenFlAssets.exists(luaFile)) {
 				doPush = true;
 			}
+		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
 
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
@@ -1958,6 +2014,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script22.lua';
@@ -1966,6 +2026,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script23.lua';
@@ -1974,6 +2038,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script24.lua';
@@ -1982,6 +2050,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script25.lua';
@@ -1990,6 +2062,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script26.lua';
@@ -1998,6 +2074,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script27.lua';
@@ -2006,6 +2086,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script28.lua';
@@ -2014,6 +2098,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script29.lua';
@@ -2022,6 +2110,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
     #if (LUA_ALLOWED)
 		var doPush:Bool = false;
 		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script30.lua';
@@ -2030,6 +2122,10 @@ class PlayState extends MusicBeatState
 				doPush = true;
 			}
 		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
+
 		if(doPush) 
 			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
 		#end
